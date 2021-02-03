@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/main.js",
   "scripts": {
-    "start": "SET NODE_ENV=development & webpack --config webpack.electron.config.js --mode development && electron ."
+    "dev:electron": "SET NODE_ENV=development & webpack --config webpack.electron.config.js --mode development && electron ."
   },
   "keywords": [],
   "author": "",
