@@ -140,11 +140,11 @@ app.allowRendererProcessReuse = true;
 {
     "main": "./dist/main.js",
     "scripts": {
-        "start": "SET NODE_ENV=development & webpack --config webpack.electron.config.js --mode development && electron ."
+        "dev:electron": "SET NODE_ENV=development & webpack --config webpack.electron.config.js --mode development && electron ."
     },
 }
 ```
 
 ## Run app
 
-Run `yarn start` or `npm run start` on terminal
+Run `yarn dev:electron` or `npm run dev:electron` on terminal
