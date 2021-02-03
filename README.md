@@ -3,7 +3,7 @@
 Reference:
 [BetterProgramming](https://medium.com/better-programming/start-a-new-electron-app-with-react-and-typescript-cdd6d9997933)
 
-## 
+## Create and configure electron project
 
 1. Create a `package.json` file running:
 
@@ -80,13 +80,13 @@ module.exports = {
     target: 'electron-main',
     module: {
         rules: [
-        {
-            test: /\.(js|ts|tsx)$/,
-            exclude: /node_modules/,
-            use: {
-                loader: 'babel-loader',
+            {
+                test: /\.(js|ts|tsx)$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                },
             },
-        },
         ],
     },
     output: {
@@ -140,7 +140,7 @@ app.allowRendererProcessReuse = true;
 {
     "main": "./dist/main.js",
     "scripts": {
-        "start": "webpack --config webpack.electron.config.js --mode development && electron . NODE_ENV=development"
+        "start": "SET NODE_ENV=development & webpack --config webpack.electron.config.js --mode development && electron ."
     },
 }
 ```
