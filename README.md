@@ -1,5 +1,5 @@
-# Electron and React Template
-## A simple app using Electron, React and TypeScript
+# Pure Electron Template
+## A simple app using Electron and TypeScript
 
 Reference:
 [BetterProgramming](https://medium.com/better-programming/start-a-new-electron-app-with-react-and-typescript-cdd6d9997933)
