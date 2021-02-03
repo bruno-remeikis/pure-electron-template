@@ -9,13 +9,13 @@ module.exports = {
     target: 'electron-main',
     module: {
         rules: [
-        {
-            test: /\.(js|ts|tsx)$/,
-            exclude: /node_modules/,
-            use: {
-                loader: 'babel-loader',
+            {
+                test: /\.(js|ts|tsx)$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                },
             },
-        },
         ],
     },
     output: {
