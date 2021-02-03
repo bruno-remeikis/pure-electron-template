@@ -1,9 +1,10 @@
-# Pure electron model
+# Electron and React Template
+## A simple app using Electron, React and TypeScript
 
 Reference:
 [BetterProgramming](https://medium.com/better-programming/start-a-new-electron-app-with-react-and-typescript-cdd6d9997933)
 
-## Create and configure electron project
+### Create and configure electron project
 
 1. Create a `package.json` file running:
 
@@ -145,6 +146,6 @@ app.allowRendererProcessReuse = true;
 }
 ```
 
-## Run app
+### Run app
 
 Run `yarn dev:electron` or `npm run dev:electron` on terminal
